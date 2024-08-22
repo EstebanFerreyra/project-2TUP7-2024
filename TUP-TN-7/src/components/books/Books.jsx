@@ -18,6 +18,7 @@ const Books = ({ booksData }) => {
         pageCount={booksData[0].pageCount}
         imageUrl={booksData[0].imageUrl}
       />
+      
       <BookItem
         title={booksData[1].bookTitle}
         author={booksData[1].bookAuthor}
@@ -25,6 +26,7 @@ const Books = ({ booksData }) => {
         pageCount={booksData[1].pageCount}
         imageUrl={booksData[1].imageUrl}
       />
+
       <BookItem
         title={booksData[2].bookTitle}
         author={booksData[2].bookAuthor}
